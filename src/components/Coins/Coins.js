@@ -3,10 +3,11 @@ import CoinItem from './CoinItem';
 import './Coins.css';
 import { Link } from 'react-router-dom';
 import Coin from '../routes/Coin'
+import Footer from '../Footer/Footer';
 
 const Coins = (props) => {
   return (
-    <div className='container'>
+    <><div className='container'>
       <div>
         <div className='header'>
           <p> # </p>
@@ -19,14 +20,15 @@ const Coins = (props) => {
 
         {props.coins.map(coins => {
           return (
-            <Link to={`/coin/${coins.id}`} element={<Coin />} key={coins.id} >
+            <Link to={`/coin/${coins.id}`} element={<Coin />} key={coins.id}>
               <CoinItem coins={coins} />
             </Link>
-          )
+          );
         })}
-
       </div>
-    </div>
+
+    </div><Footer /></>
+
   )
 }
 

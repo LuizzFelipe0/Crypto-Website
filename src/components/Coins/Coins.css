@@ -34,8 +34,8 @@
 
 }
 .coin-row:hover{
-    transform: scale(1.04);
-    transition: 0.8s ;
+    transform: scale(1.05);
+    transition: 0.5s ;
     cursor:pointer;
 }
 

@@ -35,10 +35,10 @@ const Coin = () => {
           <div className='info'>
             <div className='coin-header'>
               {coin.image ? <img src={coin.image.small} alt='Image' /> : null}
-              {coin.symbol ? <p className='namec'>({coin.symbol.toUpperCase()}/BRL)</p> : null}
+              {coin.symbol ? <p className='namec'>({coin.symbol.toUpperCase()}/USD)</p> : null}
             </div>
             <div className='coin-price'>
-              {coin.market_data?.current_price ? <h1>R$ {coin.market_data.current_price.brl.toLocaleString()}</h1> : null}
+              {coin.market_data?.current_price ? <h1>$ {coin.market_data.current_price.usd.toLocaleString()}</h1> : null}
             </div>
           </div>
         </div>
@@ -71,18 +71,18 @@ const Coin = () => {
                 <div className='row'>
                   <h4>24 hour LOW</h4>
                   {coin.market_data?.low_24h ?
-                    <p>${coin.market_data.low_24h.brl.toLocaleString()}</p> : null}
+                    <p>${coin.market_data.low_24h.usd.toLocaleString()}</p> : null}
                 </div>
                 <div className='row'>
                   <h4>24 Hour HIGH</h4>
                   {coin.market_data?.high_24h ?
-                    <p>${coin.market_data.high_24h.brl.toLocaleString()}</p> : null}                       </div>
+                    <p>${coin.market_data.high_24h.usd.toLocaleString()}</p> : null}                       </div>
               </div>
               <div className='right'>
                 <div className='row'>
                   <h4>Market Cap</h4>
                   {coin.market_data?.market_cap ?
-                    <p>${coin.market_data.market_cap.brl.toLocaleString()}</p> : null}
+                    <p>${coin.market_data.market_cap.usd.toLocaleString()}</p> : null}
                 </div>
                 <div className='row'>
                   <h4>Circulating Supply</h4>

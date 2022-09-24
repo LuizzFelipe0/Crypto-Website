@@ -1,0 +1,89 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #26272b;
+    padding: 3rem;
+    margin-top: 5%;
+    box-shadow: 0px 0px 20px #18191b;
+    width: 100%;
+
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer .container .redes_sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.footer .container .redes_sociais ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+    margin-bottom: 0;
+}
+
+.footer .container .redes_sociais ul img {
+    width: 3rem;
+    transition: 0.5s;
+}
+
+.footer .container .redes_sociais ul img:hover {
+    transform: scale(1.15);
+    transition: 0.5s ;
+
+}
+h5{
+    position: relative;
+    left:60%;
+
+}
+
+
+
+
+.icon {
+    font-size: 2rem;
+    color: #ffc400;
+}
+
+.span {
+    color: #7a28ec
+}
+
+.trending {
+    background-color: #7a28ec;
+    box-shadow: 0px 0px 20px #18191b;
+    font-size: 1vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    position: relative;
+    left: 90%;
+    transition: 1s;
+
+}
+
+.trending:hover {
+    transition: 0.8s;
+    transform: scale(1.15);
+
+}
