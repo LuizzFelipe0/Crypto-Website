@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #26272b;
+    background-color: #1E1F22;
     padding: 1rem;
     box-shadow: 0px 0px 20px #18191b;
 }
@@ -14,7 +14,7 @@
     color:#7a28ec
 }
 .trending{
-    background-color:#7a28ec;
+    background-color:#6119c5;
     box-shadow: 0px 0px 20px #18191b;
     font-size: 1vw;
     padding: 1vw;

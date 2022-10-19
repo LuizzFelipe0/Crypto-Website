@@ -30,7 +30,7 @@ const Coin = () => {
         </div>
         <div className='content'>
           <div className='ranking'>
-            <span className='rank-btn'>Ranking# {coin.market_cap_rank}</span>
+            <span className='rank-btn'>Ranking # {coin.market_cap_rank}</span>
           </div>
           <div className='info'>
             <div className='coin-header'>

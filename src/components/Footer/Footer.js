@@ -1,8 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import GithubIcon from '../../../src/GithubIcon.png';
-import InstagramIcon from '../../InstagramIcon.png';
-import TwitterIcon from '../../TwitterIcon.png';
+
 
 const Footer = () => {
   return (
@@ -18,7 +16,7 @@ const Footer = () => {
               >
                 <li>
                   <img
-                    src={InstagramIcon}
+                    src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png"
                     alt="instagram"
                   />
                 </li>
@@ -30,7 +28,7 @@ const Footer = () => {
               >
                 <li>
                   <img
-                    src={TwitterIcon}
+                    src="https://www.freeiconspng.com/thumbs/twitter-icon/twitter-icon-download-18.png"
                     alt="twitter"
                   />
                 </li>
@@ -43,7 +41,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <li>
-                  <img src={GithubIcon} alt="github" />
+                  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
                 </li>
               </a>
             </ul>
