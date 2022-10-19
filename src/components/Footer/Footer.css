@@ -43,6 +43,7 @@
 }
 
 .footer .container .redes_sociais ul img {
+    padding: 3%;
     width: 3rem;
     transition: 0.5s;
 }
@@ -50,6 +51,8 @@
 .footer .container .redes_sociais ul img:hover {
     transform: scale(1.15);
     transition: 0.5s ;
+    
+    
 
 }
 h5{
